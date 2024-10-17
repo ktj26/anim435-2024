@@ -60,10 +60,12 @@ class MyMayaWidget(QWidget):
              
         elif self.ui.myCube.isChecked():
             maya.cmds.polyCube()
+
+        elif self.ui.myCylinder.isChecked():
+            maya.cmds.polyCylinder()
                
 my_widget = MyMayaWidget()      
 my_widget.show()
 
 '''
 
-#testing comments
